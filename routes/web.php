@@ -21,3 +21,7 @@ Auth::routes();
 Route::get('/home', 'HomeController@index');
 
 Route::resource('utilisateurs', 'utilisateurController');
+
+Route::resource('fonctions', 'fonctionController');
+
+Route::resource('employers', 'employerController');
