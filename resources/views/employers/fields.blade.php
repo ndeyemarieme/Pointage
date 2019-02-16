@@ -18,7 +18,7 @@
 
 <!-- Fonction Id Field -->
 <div class="form-group col-sm-6">
-    {!! Form::label('fonction_id', 'Fonction Id:') !!}
+    {!! Form::label('fonction_id', 'Fonction:') !!}
     {!! Form::select('fonction_id', $fonctions, null, ['class' => 'form-control']) !!}
 </div>
 

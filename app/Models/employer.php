@@ -47,12 +47,15 @@ class employer extends Model
     public static $rules = [
         'nom' => 'required',
         'login' => 'required',
-        'pw' => 'fonction_id integer:unsigned:foreign,fonctions,id select',
+        'pw' => 'required',
         'fonction_id' => 'required'
-    ];
+       ];
 
     public function fonctions(){
         return $this->belongsTo('App\Models\fonction','fonction_id');
     }
     
+    public function pointer(){
+        return $this->hasMay('App\Models\pointer');
+    }
 }

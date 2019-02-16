@@ -23,3 +23,9 @@ Route::resource('utilisateurs', 'utilisateurAPIController');
 Route::resource('fonctions', 'fonctionAPIController');
 
 Route::resource('employers', 'employerAPIController');
+
+Route::resource('pointers', 'pointerAPIController');
+
+Route::resource('pointers', 'pointerAPIController');
+
+Route::resource('pointers', 'pointerAPIController');

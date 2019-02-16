@@ -10,3 +10,8 @@
     <a href="{!! route('employers.index') !!}"><i class="fa fa-edit"></i><span>employers</span></a>
 </li>
 
+
+<li class="{{ Request::is('pointers*') ? 'active' : '' }}">
+    <a href="{!! route('pointers.index') !!}"><i class="fa fa-edit"></i><span>pointers</span></a>
+</li>
+
